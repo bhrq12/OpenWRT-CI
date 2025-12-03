@@ -34,9 +34,10 @@ CONFIG_PACKAGE_luci-theme-bootstrap=y
 
 # 全功能的 WiFi 认证与管理工具包
 CONFIG_PACKAGE_wpad=y
+CONFIG_PACKAGE_wpad-mesh-wolfssl=y                # 使用 mbed TLS (以前称为 PolarSSL) 库。这也是一个为嵌入式系统设计的轻量级安全库，由 ARM 公司维护。
 CONFIG_PACKAGE_hostapd=y
 CONFIG_PACKAGE_wpad=m
-CONFIG_PACKAGE_wpad-full-mbedtls=y  # 支持漫游的完整版组件
+CONFIG_PACKAGE_wpad-full-mbedtls=y                # 支持漫游的完整版组件
 
 # 广告屏蔽软件包
 CONFIG_PACKAGE_adblock=y
