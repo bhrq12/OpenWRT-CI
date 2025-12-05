@@ -94,7 +94,7 @@ CONFIG_PACKAGE_hysteria=y
 CONFIG_PACKAGE_naiveproxy=y
 CONFIG_PACKAGE_chinadns-ng=y
 CONFIG_PACKAGE_dnsproxy=y
-CONFIG_PACKAGE_pdnsd-alt=y
+#CONFIG_PACKAGE_pdnsd-alt=y
 
 # 兼容旧版（可选）
 CONFIG_PACKAGE_luci-app-passwall=y             # PassWall（旧版）
